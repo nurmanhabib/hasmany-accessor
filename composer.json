@@ -1,14 +1,19 @@
 {
-    "name": "nurmanhabib/hasmany-accessor",
-    "description": "Bypass get related Has Many grouping by name on Eloquent Database",
-    "require": {
-        "illuminate/database": "^5.0"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Habib Nurrahman",
-            "email": "nurmanhabib@yahoo.co.id"
-        }
-    ]
+  "name": "nurmanhabib/hasmany-accessor",
+  "description": "Bypass get related Has Many grouping by name on Eloquent Database",
+  "require": {
+    "illuminate/database": "^5.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Habib Nurrahman",
+      "email": "nurmanhabib@yahoo.co.id"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Nurmanhabib\\HasManyAccessor\\": "src/"
+    }
+  }
 }
